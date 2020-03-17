@@ -13,7 +13,7 @@ class EventListItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       title: Text(event.name),
-      subtitle: Text('Tarih: ' + event.date.toIso8601String()),
+      subtitle: Text('Tarih: ' + event.date),
       leading: Checkbox(
         value: event.completed,
         onChanged: (bool checked) {

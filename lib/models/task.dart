@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 class Task{
   String name;
   bool completed;
-  DateTime createdAt;
-  DateTime updatedAt;
+  String createdAt;
+  String updatedAt;
 
   Task({
     @required this.name,

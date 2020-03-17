@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mindbox/tabs/tab_task_incomplete.dart';
 import 'package:mindbox/tabs/tab_task_completed.dart';
+import 'package:mindbox/screens/screen_add/screen_add_task.dart';
 
 class ScreenTask extends StatefulWidget {
   @override
@@ -26,7 +27,9 @@ class _ScreenTaskState extends State<ScreenTask> with SingleTickerProviderStateM
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.add, color: Colors.white),
-            onPressed: null,
+            onPressed:() {
+              Navigator.push(context, MaterialPageRoute(builder: (context)=> ScreenAddTask()));
+            }
           ),
         ],
         bottom: TabBar(

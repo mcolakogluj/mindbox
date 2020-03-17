@@ -5,7 +5,7 @@ import 'package:mindbox/providers/taskmodel.dart';
 import 'package:mindbox/providers/eventmodel.dart';
 import 'package:mindbox/providers/notemodel.dart';
 
-import 'package:mindbox/theme.dart';
+import 'package:mindbox/utils/theme.dart';
 import 'package:mindbox/main_scaffold.dart';
 
 void main() => runApp(MyApp());

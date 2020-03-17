@@ -1,5 +1,5 @@
 name: mindbox
-description: A new Flutter project.
+description: Flutter Provider Architecture Sample.
 
 version: 1.0.0+1
 
@@ -12,6 +12,7 @@ dependencies:
 
   cupertino_icons: ^0.1.2
   provider: ^3.0.0
+  intl: ^0.16.1
 
 dev_dependencies:
   flutter_test:

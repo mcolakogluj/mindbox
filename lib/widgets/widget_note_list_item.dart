@@ -13,7 +13,7 @@ class NoteListItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       title: Text(note.title),
-      subtitle: Text('Son güncelleme: ' + note.createdAt.toIso8601String()),
+      subtitle: Text('Son güncelleme: ' + note.createdAt),
       leading: IconButton(
         icon: Icon(Icons.edit, color: Colors.blue),
         onPressed: null,

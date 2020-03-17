@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 class Event {
   String name;
   bool completed;
-  DateTime date;
-  DateTime createdAt;
-  DateTime updatedAt;
+  String date;
+  String createdAt;
+  String updatedAt;
   
   Event({
     @required this.name,

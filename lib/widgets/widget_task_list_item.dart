@@ -13,7 +13,7 @@ class TaskListItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       title: Text(task.name),
-      subtitle: Text('Son güncelleme: ' + task.createdAt.toIso8601String()),
+      subtitle: Text('Son güncelleme: ' + task.createdAt),
       leading: Checkbox(
         value: task.completed, 
         onChanged: (bool checked){
